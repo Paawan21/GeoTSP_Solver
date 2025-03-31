@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-const double START_TEMP = 1000.0;
+const double START_TEMP = 5000.0;
 const double COOLING_RATE = 0.995; // Slightly slower cooling for better exploration
-const int MAX_ITERATIONS = 10000;
+const int MAX_ITERATIONS = 50000;
 
 // Function to calculate total distance of a given route
 double tourDistance(const vector<int> &route, const vector<vector<double>> &distanceMatrix) {
